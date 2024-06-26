@@ -1,0 +1,18 @@
+body {
+  background: url('../Images/background3.jpg') no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.jumbotron {
+  background: rgba(255, 255, 255, 0.8); /* Add transparency to jumbotron background */
+  padding: 2rem;
+}
+
+h1.text-info {
+  color: #17a2b8;
+}
+
+blockquote.blockquote {
+  border-left: .25rem solid #17a2b8;
+}
+

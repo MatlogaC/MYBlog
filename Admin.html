@@ -1,0 +1,56 @@
+ <!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+   
+   <link rel="stylesheet" href="./css/bootstrap.min.css">
+   <link rel="stylesheet" href="./css/styles1.css">
+   
+    <title>Beauty Of Nature!</title>
+  </head>
+  <body>
+
+
+   <div class="container-fluid">
+      <div class="jumbotron">
+        <h1 class="text-center text-info">NATURE</h1>
+        <p>You don't need to be a doctor to immediately realize how we feel better when we are outside, in Nature.</p>
+      </div>
+    </div>
+    
+    <h1 class="text-center text-info">Create an Article</h1>
+
+    <div class="container">
+      <form action="/action_page_process_submitted_data.php" method="post" enctype="multipart/form-data">
+        <h2 class="text-info">Article Title</h2>
+        <input class="form-control" type="text" id="artTitle" name="artTitle" value="">
+        <br><br>
+
+        <h3 class="text-info">Choose an Image</h3>
+        <input type="file" name="artImage" id="artImage" class="form-control">
+        <br>
+
+        <h4 class="text-info">Article Text</h4>
+        <textarea class="form-control" rows="5" id="artTxt" name="artTxt"></textarea>
+        <br>
+
+        <h5 class="text-info">Article Category</h5>
+        <input class="form-control" type="text" id="artCat" name="artCat" value="">
+        <br>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
+  
